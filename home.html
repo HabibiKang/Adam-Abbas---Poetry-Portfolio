@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicotine's Espresso</title>
+  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap">
+  <style>
+    body {
+      background-color: #E7E7E7;
+      font-family: 'Cutive Mono', monospace;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .favfont {
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #DCC7AA;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #DCC7AA;
+      margin: 20px 0;
+    }
+
+    .anthology {
+      font-style: italic;
+      color: #777;
+    }
+
+    .poem {
+      margin-bottom: 30px;
+    }
+
+    .fade-text {
+      color: #DCC7AA;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+
+    .fade-text:hover {
+      opacity: 1;
+    }
+
+    .poem-text {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+    .baz {
+      color: coral;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="favfont">Nicotine's Espresso</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="poems.html">Poems</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Latest Poem</h2>
+      <hr>
+      <figcaption class="anthology">
+        Poetic Anthologies by Adam Abbas
+      </figcaption>
+      <div class="poem">
+          <h2 class="baz fade-text"><em>A Wandering Man's Cologne</em></h2>
+        <blockquote>
+          <p class="poem-text">"A strong, bittersweet fragrance<br>
+          I reek of.<br>
+          A grin of charisma<br>
+          Above a melting heart.<br>
+          Supple like butter,<br>
+          Bold as whiskey"<br>
+          - A.A</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section>
+      <h2>Most Popular</h2>
+      <hr>
+      <div class="poems-list">
+        <div class="poem">
+          <h2 class="baz fade-text"><em>Loose Friction</em></h2>
+          <p class="poem-text">"The pen is loose;<br>
+          Slippery<br>
+          as is the tongue<br>
+          of the earnest and the<br>
+          tender.<br>
+          Though,<br>
+          so is that of the terribly<br>
+          honest.<br>
+          The result of both avenues of<br>
+          voice dispensation is a<br>
+          tattoo that remains<br>
+          permanent.<br>
+          Unless it is clouded over<br>
+          by a thick smoke;<br>
+          overlapping like a<br>
+          blinding eclipse"<br>
+          - A.A</p>
+        </div>
+        <div class="poem">
+          <h2 class="baz fade-text"><em>Frostbitten</em></h2>
+          <p class="poem-text">"Embers dance shapelessly;<br>
+          involuntarily<br>
+          Candlewicks simmer in flames<br>
+          incessantly.<br>
+          Though,<br>
+          the living is frozen in the ice of<br>
+          decay.<br>
+          Upon refusal to depart<br>
+          Such is the man<br>
+          who dreadfully<br>
+          obeys."<br>
+          - A.A</p>
+        </div>
+        <div class="poem">
+          <h2 class="baz fade-text"><em>Hesitant Risks</em></h2>
+          <p class="poem-text">"Are all gambles just<br>
+          wingless flings of<br>
+          head rushes and<br>
+          heart gallops?<br>
+          Are they this in denial of<br>
+          being<br>
+          implausible efforts?<br>
+          Or are some<br>
+          Feats of triumphant<br>
+          endurance?<br>
+          Stretching out an extension<br>
+          of their innermost<br>
+          Worthwhile<br>
+          Endeavors?"<br>
+          - A.A
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Nicotine's Espresso.<br> All rights reserved.</p>
+  </footer>
+</body>
+</html>
